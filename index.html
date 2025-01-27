@@ -16,7 +16,7 @@
 
   <div id="video-overlay">
     <video id="intro-video" autoplay muted playsinline>
-      <source src="./assets/imgs/intro.mp4" type="video/mp4">
+      <source src="./assets/videos/intro.mp4" type="video/mp4">
       Seu navegador não suporta vídeos.
     </video>
     <button id="skip-btn">Pular</button>
@@ -34,8 +34,10 @@
       <button class="circle-button" onclick="navigateTo('./pages/leaderboard.html')">Placar</button>
     </div>
     <div class="avatar">
-      <img src="./assets/imgs/mascot.png" alt="Avatar">
+      <img src="./assets/imgs/mascot.png" alt="Avatar" id="avatar-image">
     </div>
+    <audio id="avatar-sound" src="./assets/sounds/click-sound.wav
+    "></audio>
   </div>
 
   <script src="./scripts/index.js"></script>

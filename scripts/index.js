@@ -18,3 +18,11 @@ skipBtn.addEventListener("click", () => {
 function navigateTo(url) {
     window.location.href = url;
   }
+
+  const avatarImage = document.getElementById('avatar-image');
+  const avatarSound = document.getElementById('avatar-sound');
+
+  // Adicione um evento de clique na imagem
+  avatarImage.addEventListener('click', () => {
+    avatarSound.play(); // Reproduz o som
+  });
